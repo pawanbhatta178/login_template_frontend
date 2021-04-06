@@ -40,6 +40,7 @@ function App() {
     if (!userState?.token) {
       return;
     }
+    console.log("");
     console.log({ token: userState.token });
     axios.defaults.headers.common[
       "Authorization"
